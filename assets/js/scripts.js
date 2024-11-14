@@ -57,7 +57,7 @@ setInterval(ran, 5000);
 
 
 function callName(){
-   
+   time();
     document.getElementById("loginNamea").innerHTML = " " + localStorage.getItem("uname");
     if(localStorage.getItem("uname") === "Demo Login"){
         document.getElementById("Logout").style.display="none";
